@@ -1,0 +1,174 @@
+.container-contacto {
+    width: 70%;
+    margin: auto;
+}
+
+.contacto {
+    padding: 40px 0px;
+
+    .container {
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .info {
+        text-align: center;
+        padding: 20px 10px;
+        width: 30%;
+
+        i {
+            font-size: 50px;
+            color: $color-naranja;
+        }
+    }
+
+    .title {
+        p {
+            font-size: 18px;
+            padding: 4px 0px;
+            font-size: bold;
+            color: #323232;
+        }
+    }
+
+    a,
+    p {
+        font-size: 15px;
+        color: #323232d0;
+        display: block;
+    }
+
+}
+
+.mapa {
+    iframe {
+        width: 100%;
+    }
+}
+
+.formulario-contacto {
+    margin: auto;
+
+    .container {
+
+        input {
+            width: 32%;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid rgba(209, 203, 203, 0.705);
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            appearance: none;
+            -webkit-appearance: none;
+
+            &:focus {
+                outline: none;
+                border: 1.5px solid rgba(29, 28, 28, 0.548);
+            }
+        }
+    }
+
+    textarea {
+        resize: none;
+        width: 100%;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid rgba(209, 203, 203, 0.705);
+        font-size: 14px;
+        margin-top: 25px;
+        font-family: 'Poppins', sans-serif;
+        appearance: none;
+           -webkit-appearance: none;
+
+        &:focus {
+            outline: none;
+            border: 1.5px solid rgba(29, 28, 28, 0.548);
+        }
+    }
+
+    input[type=submit] {
+        color: #fff;
+        background: #ff6e05;
+        display: block;
+        padding: 10px 25px;
+        border-radius: 5px;
+        font-weight: 400;
+        transition: color 0.5s ease-in-out;
+        border: 2px solid #fff;
+        cursor: pointer;
+        font-size: 14px;
+        margin-top: 8px;
+        font-family: 'Poppins', sans-serif;
+        appearance: none;
+        margin-bottom: 50px;
+           -webkit-appearance: none;
+
+        &:hover {
+            color: $color-naranja;
+            border: 2px solid #ff6e05;
+            background: none;
+               -webkit-appearance: none;
+        }
+
+    }
+}
+
+.banner {
+    
+    .container{
+    background-image: url(../media/imagenes/banner-msj.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    padding: 120px 0;
+        }
+
+    h2 {
+        color: #fff;
+        margin: auto;
+        font-size: 3.5em;
+    }
+}
+
+.banner2 {
+    
+    .container{
+    background-image: url(../media/imagenes/call.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    padding: 120px 0;
+        }
+
+    h2 {
+        color: #fff;
+        margin: auto;
+        font-size: 3.5em;
+    }
+}
+
+
+.sitios-relacionados {
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    color: #323232;
+    background: #ff6e05;
+    margin-top: 40px;
+    color: #fff;
+
+    h3 {
+        padding-bottom: 20px;
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 1.2em;
+        color: #fff;
+        display: inline-block;
+
+    }
+
+}

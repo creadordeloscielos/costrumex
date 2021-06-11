@@ -1,0 +1,29 @@
+
+@mixin btn-naranja {
+    a {
+        color: #fff;
+        background: #ff5722;
+        display: inline-block;
+        padding: 8px 25px;
+        border-radius: 6px;
+        font-weight: 400;
+        transition: 0.5s ease-in-out;
+        border: 2px solid #fff;
+        margin-top: 15px;
+      }
+      
+      a:hover {
+        color: #ff5722;
+        border: 2px solid #ff5722;
+        background: none;
+      }
+    
+}
+
+
+// PALETA DE COLORESA A UTILIZAR
+$color-primario:#e1701a;
+$color-secundario:#f7a440;
+$color-base:#f6dcbf;
+$color-footer:#aaaaaa;
+$color-naranja:#ff6e05;

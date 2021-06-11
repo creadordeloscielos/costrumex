@@ -1,0 +1,366 @@
+// *** ESTILOS GENERALES *** //
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1300px;
+    width: 80%;
+    margin: auto;
+}
+
+.dp-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container2 {
+    width: 100%;
+}
+
+.icon-menu {
+    display: none;
+}
+
+// *** ESTILOS GENERALES *** //
+
+// *** PROYECTOS *** //
+
+.proyectos {
+    padding: 50px 0px;
+
+    .container {
+        justify-content: space-evenly;
+    }
+
+    .proyecto {
+        width: 300px;
+        border-bottom: 1px solid #ff6e05;
+        padding: 20px 25px;
+        background: rgba(148, 144, 144, 0.13);
+    }
+}
+
+// *** PROYECTOS *** //
+
+// *** NUESTROS CLIENTES *** //
+
+.nuestros-clientes {
+    text-align: center;
+    font-size: 2.2em;
+
+    .container {
+        justify-content: space-evenly;
+        padding: 25px;
+    }
+
+    img {
+        height: 100px;
+    }
+
+    h4 {
+        color: #323232;
+        font-size: .9em;
+    }
+}
+
+// *** NUESTROS CLIENTES *** //
+
+// *** PROYECTOS *** //
+
+.nuestros-proyectos {
+    padding: 50px 0px;
+
+    h4 {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .proyecto {
+        width: 25%;
+        position: relative;
+        cursor: pointer;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt {
+        // DIV DONDE ESTA BACKGROUND Y TEXTO
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.39);
+        display: none;
+        transition: all .5s out;
+
+        h4 {
+            margin-bottom: 0;
+            color: #fff;
+        }
+
+    }
+
+    .proyecto:hover .txt {
+        display: block;
+        display: flex; // PARA PODER CENTRAR EL ELEMENTO P YA QUE SI ES ASI
+        align-items: center; // SE TOMARA LA PROPIEDAD BLOCK Y NO SE CENTRARA EL ELEMENTO
+        justify-content: center;
+    }
+}
+
+
+// *** PROYECTOS *** //
+
+// *** MENSAJE BANNER *** //
+
+.banner-msj {
+    background-image: url(../media/imagenes/banner-msj.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-msj h4 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.banner-msj a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+// *** MENSAJE BANNER *** //
+
+.capacidades {
+    padding: 50px 0px;
+    background-image: url(../media/imagenes/capacidades.jpg);
+    background-color: rgba(0, 0, 0, 0.24);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+
+    .txt {
+        text-align: center;
+    }
+
+    h2 {
+        color: rgb(253, 253, 253);
+
+    }
+
+    .container {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        opacity: 1;
+        position: relative;
+        z-index: 5;
+
+    }
+
+    .capacidad {
+        width: 45%;
+        margin: 20px auto;
+        padding: 0px 20px;
+    }
+
+    h3 {
+        color: rgb(255, 255, 255);
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    p{
+        color: #fff;
+    }
+}
+
+.mapa-construmex {
+    background-color: #eeedeb;
+    padding: 50px 0px;
+   
+    .container {
+        text-align: center;
+      
+    }
+
+    img {
+        width: 70%;
+        margin: auto;
+    }
+
+    p {
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 0px 0px 30px 0px;
+    }
+}
+
+// *** NOSOTROS *** //
+
+.mision {
+    padding: 30px 0px;
+    margin: 0px 30px;
+}
+
+.mision img {
+    width: 40%;
+}
+
+.mision .txt {
+    width: 650px;
+    margin-bottom: 30px;
+
+}
+
+.mision h2 {
+    color: #323232;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+
+.mision p {
+    color: #9194a1;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 5px 0px;
+}
+
+.valores {
+
+    padding: 30px 0px;
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .txt {
+        width: 40%;
+        margin: 20px 0px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #323232;
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        color: #323232;
+    }
+
+    p {
+        color: #9194a1;
+    }
+
+    .container-txt {
+        margin-left: 20px;
+    }
+}
+
+// *** SERVICIOS *** //
+
+.proyectos-2 {
+    padding: 40px 0;
+  }
+  
+  .proyectos-2 h3 {
+    text-align: center;
+    color: #323232;
+    font-size: 2rem;
+  }
+  
+  .proyectos-2 .container {
+    flex-wrap: wrap;
+  }
+  
+  .proyectos-2 .card {
+    width: 32%;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 8px 2px;
+    height: 250px;
+  }
+  
+  .proyectos-2 img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .proyectos-2 .txt {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .proyectos-2 p {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+  }
+  
+  .proyectos-2 .card:hover .content {
+    display: block;
+    transition: all .8s ease;
+    background: rgba(0, 0, 0, 0.466);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .proyectos-2 .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  .proyectos-2 .btn {
+    margin-top: 20px;
+  }
