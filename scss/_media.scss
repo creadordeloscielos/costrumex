@@ -14,10 +14,6 @@
         }
     }
 
-
-
-
-
 }
 
 @media screen and(max-width:950px) {
@@ -237,21 +233,61 @@
 
         .icon-menu {
             display: block;
+            z-index: 2;
             font-size: 28px;
         }
 
     }
 
-    nav,
-    ul {
+ nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    left: -100%;
+    background: #ff6e05;
+    -webkit-transition: .8s all ease-in-out;
+    transition: .8s all ease-in-out;
+
+    a{
+        width: 100%;
+        padding: 15px 20px;
+        }
+
+
+    .redes{
+        text-align: center;
+
+        a{
+            padding:10px 5px; 
+                display: inline-block !important;
+    
+         }
+
+        }
+
+            li{
+                width: 100%;
+                text-align: center;
+              
+
+                   &:hover{
+            background: #323232;
+             transition: .5s all ease-in-out;
+        }
+                }
+  }
+
+      .mostrar{  // CLASE PARA MOSTRAR MENU
+            left: 0;
+          }
+
+    nav,ul {
         flex-direction: column;
     }
 
-    .menu {
-        display: none;
-    }
 
-    .banner {
+    .banner, .banner2 {
         padding-top: 90px;
     }
 

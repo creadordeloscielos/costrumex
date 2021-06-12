@@ -29,9 +29,8 @@
 }
 
 .menu {
-    background: #ff6e05;
-
-    ul {
+    nav{
+         ul {
         justify-content: start;
     }
 
@@ -44,6 +43,10 @@
             background: #323232;
         }
     }
+        }
+    background: #ff6e05;
+
+   
 
 
 }

@@ -31,17 +31,19 @@
   background: #ff6e05;
 }
 
-.menu ul {
-  justify-content: start;
+.menu nav ul {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
-.menu a {
+.menu nav a {
   display: inline-block;
   color: #fff;
   padding: 15px 25px;
 }
 
-.menu a:hover {
+.menu nav a:hover {
   background: #323232;
 }
 
@@ -91,6 +93,7 @@
   padding: 8px 25px;
   border-radius: 6px;
   font-weight: 400;
+  -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   border: 2px solid #fff;
   margin-top: 15px;
@@ -109,7 +112,8 @@
 * {
   padding: 0px;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -131,9 +135,15 @@ li {
 }
 
 .dp-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .container2 {
@@ -149,7 +159,9 @@ li {
 }
 
 .proyectos .container {
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .proyectos .proyecto {
@@ -162,20 +174,30 @@ li {
 .nuestros-clientes {
   text-align: center;
   font-size: 2.2em;
+  padding: 20px 0px;
 }
 
 .nuestros-clientes .container {
-  justify-content: space-evenly;
-  padding: 25px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nuestros-clientes .img {
+  width: 200px;
+  margin: 20px;
 }
 
 .nuestros-clientes img {
-  height: 100px;
+  width: 100%;
+  height: 100%;
 }
 
 .nuestros-clientes h4 {
   color: #323232;
   font-size: .9em;
+  margin-bottom: 15px;
 }
 
 .nuestros-proyectos {
@@ -189,8 +211,11 @@ li {
 }
 
 .nuestros-proyectos .container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .nuestros-proyectos .proyecto {
@@ -213,6 +238,7 @@ li {
   color: #fff;
   background: rgba(0, 0, 0, 0.39);
   display: none;
+  -webkit-transition: all .5s out;
   transition: all .5s out;
 }
 
@@ -223,9 +249,15 @@ li {
 
 .nuestros-proyectos .proyecto:hover .txt {
   display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .banner-msj {
@@ -271,8 +303,11 @@ li {
 }
 
 .capacidades .container {
-  align-items: flex-start;
-  flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   opacity: 1;
   position: relative;
   z-index: 5;
@@ -348,8 +383,11 @@ li {
 }
 
 .valores .container {
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .valores .txt {
@@ -389,14 +427,16 @@ li {
 }
 
 .proyectos-2 .container {
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .proyectos-2 .card {
   width: 32%;
   position: relative;
   cursor: pointer;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 8px 2px;
   height: 250px;
 }
@@ -423,11 +463,18 @@ li {
 
 .proyectos-2 .card:hover .content {
   display: block;
+  -webkit-transition: all .8s ease;
   transition: all .8s ease;
   background: rgba(0, 0, 0, 0.466);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .proyectos-2 .content {
@@ -450,13 +497,19 @@ footer .wrapper {
 }
 
 footer .dp-flex {
-  align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 footer li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
-  align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   color: white;
   font-weight: 100;
 }
@@ -482,7 +535,9 @@ footer ul li:first-child {
 }
 
 footer .info {
-  align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   width: 74%;
 }
 
@@ -508,8 +563,11 @@ footer a {
 }
 
 .contacto .container {
-  justify-content: space-around;
-  align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .contacto .info {
@@ -552,7 +610,8 @@ footer a {
   border: 1px solid rgba(209, 203, 203, 0.705);
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   -webkit-appearance: none;
 }
 
@@ -570,7 +629,8 @@ footer a {
   font-size: 14px;
   margin-top: 25px;
   font-family: 'Poppins', sans-serif;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   -webkit-appearance: none;
 }
 
@@ -586,13 +646,15 @@ footer a {
   padding: 10px 25px;
   border-radius: 5px;
   font-weight: 400;
+  -webkit-transition: color 0.5s ease-in-out;
   transition: color 0.5s ease-in-out;
   border: 2px solid #fff;
   cursor: pointer;
   font-size: 14px;
   margin-top: 8px;
   font-family: 'Poppins', sans-serif;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   margin-bottom: 50px;
   -webkit-appearance: none;
 }
@@ -636,7 +698,9 @@ footer a {
 
 .sitios-relacionados {
   text-align: center;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 30px;
   color: #323232;
   background: #ff6e05;
@@ -660,7 +724,8 @@ footer a {
     width: 90%;
   }
   .nuestros-clientes .container {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding: 0;
   }
   .nuestros-clientes img {
@@ -670,7 +735,8 @@ footer a {
 
 @media screen and (max-width: 950px) {
   footer .container {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   footer .container .box {
     width: 45%;
@@ -720,7 +786,10 @@ footer a {
   }
   .nosotros-inicio .container,
   .nosotros-inicio .container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .nosotros-inicio .txt,
   .nosotros-inicio .txt {
@@ -740,7 +809,10 @@ footer a {
     margin: 0px;
   }
   .mision .container {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .mision .container-txt {
     width: 100%;
@@ -752,7 +824,10 @@ footer a {
     width: 100%;
   }
   .nosotros-inicio .reverse {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .nosotros-inicio ul {
     margin-left: 5%;
@@ -767,13 +842,19 @@ footer a {
 
 @media screen and (max-width: 760px) {
   .contacto .container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .contacto .info {
     width: 100%;
   }
   .formulario-contacto .container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .formulario-contacto .container input {
     width: 100%;
@@ -809,16 +890,49 @@ footer a {
   }
   .logo-banner .icon-menu {
     display: block;
+    z-index: 2;
     font-size: 28px;
   }
-  nav,
-  ul {
-    flex-direction: column;
+  nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    left: -100%;
+    background: #ff6e05;
+    -webkit-transition: .8s all ease-in-out;
+    transition: .8s all ease-in-out;
   }
-  .menu {
-    display: none;
+  nav a {
+    width: 100%;
+    padding: 15px 20px;
   }
-  .banner {
+  nav .redes {
+    text-align: center;
+  }
+  nav .redes a {
+    padding: 10px 5px;
+    display: inline-block !important;
+  }
+  nav li {
+    width: 100%;
+    text-align: center;
+  }
+  nav li:hover {
+    background: #323232;
+    -webkit-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+  }
+  .mostrar {
+    left: 0;
+  }
+  nav, ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner, .banner2 {
     padding-top: 90px;
   }
   .vh {
@@ -836,7 +950,10 @@ footer a {
     margin-bottom: 0px;
   }
   .valores .container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .valores .txt {
     width: 100%;
@@ -849,7 +966,10 @@ footer a {
     font-size: 1.6rem;
   }
   .capacidades .container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .capacidades .capacidad {
     width: 100%;
@@ -860,3 +980,4 @@ footer a {
     height: 50%;
   }
 }
+/*# sourceMappingURL=css.css.map */
