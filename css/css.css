@@ -900,7 +900,7 @@ footer a {
     top: 100%;
     left: -100%;
     background: #ff6e05;
-    -webkit-transition: .8s all ease-in-out;
+    -webkit-transition: 1s all ease-in-out;
     transition: .8s all ease-in-out;
   }
   nav a {
