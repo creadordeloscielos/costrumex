@@ -1,0 +1,446 @@
+@media screen and(max-width:1000px) {
+
+    .wrapper,
+    .txt-slider {
+        width: 90%;
+    }
+
+    .banner {
+        padding: 80px 0px;
+
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+      footer {
+        .container {
+            flex-wrap: wrap;
+
+            .box {
+                width: 45%;
+                margin-bottom: 20px;
+
+            }
+        }
+
+    }
+
+}
+
+@media screen and(max-width:800px) {
+
+ 
+.experiencia{
+    .title{
+        .txt {
+            p{
+                width: 100%;
+                font: 16px;
+                }
+            }
+        }
+    .container{
+        flex-direction: column;
+        .txt{
+            width: 450px;
+            }
+        }
+    }
+/*------------------------------------------------------------------
+                         NOSOTROS
+-------------------------------------------------------------------*/    
+   .nosotros{
+       
+       .container{
+           flex-direction: column;
+           .txt{
+               width: 100%;
+               padding-right: 0;
+               }
+           .img{
+               width: 100%;
+               }
+           }
+       }
+
+           .fortaleszas {
+
+               h3{
+                   margin: 0px auto;
+                   }
+               
+               .container{
+                   flex-direction: column;
+                   }
+                       .txt{
+                           width: 100%;
+                           margin: 15px auto;
+                           }
+                               p{
+                                     text-align: center;
+                                   }
+               }
+
+}
+
+/*------------------------------------------------------------------
+                              CONTACTO
+-------------------------------------------------------------------*/
+.contact-information {
+
+    .txt {
+        width: 100%;
+    }
+}
+
+@media screen and(max-width:830px) {
+
+/*------------------------------------------------------------------
+                           HEADER
+-------------------------------------------------------------------*/
+    header {
+
+        z-index: 5;
+
+        i {
+            display: block;
+            font-size: 24px;
+            z-index: 2;
+        }
+
+        .menu {
+            display: block;
+            z-index: 10;
+        }
+
+        nav ul {
+            display: block !important;
+            overflow: hidden;
+        }
+
+        nav {
+            transition: .8s all ease-in-out;
+            position: absolute;
+            height: 100%;
+            width: 80%;
+            left: -100%;
+            z-index: 10;
+                    top: 78px;
+        }
+
+        a {
+            text-align: center;
+            color: #fff !important;
+            padding: 13px 0px !important;
+
+            &:hover {
+                background: #ffffff0c;
+            }
+        }
+
+               
+    }
+
+.trabajo {
+    
+    .title{
+        flex-direction: column;
+        padding-bottom: 30px;
+        width: 90%;
+        margin: 0px auto;
+    
+        .txt{
+            width: 100%;
+            margin-right: 0px;
+
+            h2{
+                font-size: 22px;
+                }
+
+                    p{
+                        font-size: 16px;
+                        }
+
+                            li, i{
+                                font-size: 16px;
+                                }
+    
+            }
+        .img{
+            width: 100%;
+            }
+        }
+
+           
+    }
+
+.planos{
+    .container{
+            flex-direction: column;
+        }
+            .img, .txt{
+                width: 100%;
+                }
+
+    }
+
+    .mostrar {
+        left: 0;
+        background: #133157;
+    }
+
+/*------------------------------------------------------------------
+                         NOSOTROS
+-------------------------------------------------------------------*/    
+
+    .valores {
+        .container{
+            flex-direction: column;
+            }
+                .txt{
+                    width: 100%;
+                    }
+        }
+
+}
+
+@media screen and(max-width:850px) {
+
+/*------------------------------------------------------------------
+                          CONTACTO
+-------------------------------------------------------------------*/
+    
+    .form-contact {
+        .container {
+            flex-direction: column-reverse;
+        }
+
+        .form {
+            width: 100%;
+        }
+
+            .h1{
+                display: none;
+                }
+
+                    .h2{
+                        display: block;
+                        }
+
+    }
+        
+    .contact-information {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100% !important;
+        margin-left: 0 !important;
+
+        .txt {
+            width: 47% !important;
+            padding: 0px 15px;
+        }
+
+    }
+
+    .banner {
+        padding: 60px 0px;
+
+        h2 {
+            font-size: 40px;
+        }
+    }
+
+        .servicios {
+            .title {
+                flex-direction: column;
+                .txt{
+                    width: 100%;
+                    a{margin-bottom: 30px;
+                        
+                        }
+                    }
+                }
+            }
+
+                      .servicios {
+        .title {
+            .txt{
+                margin-right: 0px;
+                }
+            }
+        }
+
+        
+
+}
+
+@media screen and(max-width:630px) {
+
+    /*------------------------------------------------------------------
+                          CONTACTO
+-------------------------------------------------------------------*/
+
+    .contact-information {
+        .txt {
+            width: 100% !important;
+
+            br {
+                display: block;
+            }
+        }
+    }
+
+    .form-contact li {
+        justify-content: center;
+    }
+
+    .form-50 {
+        flex-direction: column;
+
+        .form-group {
+            width: 100%;
+        }
+    }
+
+    footer {
+        br {
+            display: none;
+        }
+
+        .container {
+            flex-direction: column;
+        }
+
+        .box {
+            margin-top: 10px;
+        }
+    }
+
+         header {
+             img{
+                width: 250px;
+                }
+            }
+
+                .experiencia{
+              
+              .title {
+                   h3{
+                font-size: 24px;
+                }
+                    p{
+                        font-size: 16px;
+                        }
+                  }
+    .container{
+  
+        .txt{
+           
+         h4{
+             font-size: 18px;
+             }
+                 font-size: 14px;
+            }
+        }
+    }
+
+        .precencia {
+            .txt{
+                  h4{
+                font-size: 22px;
+                }
+                }
+
+                    .img{
+                        width: 100%;
+                        }
+          
+            }
+
+}
+
+
+    @media screen and(max-width:520px) {
+
+    /*------------------------------------------------------------------
+                          CONTACTO
+-------------------------------------------------------------------*/
+  .experiencia{
+    .container{
+      
+        .txt{
+            width: 100%;
+            }
+        }
+    }
+
+
+}
+
+@media screen and(max-width:450px) {
+
+    /*------------------------------------------------------------------
+                          CONTACTO
+-------------------------------------------------------------------*/
+    input[type=submit] {
+        width: 100%;
+    }
+
+    .trabajo a{
+    
+                text-align: center;
+                width: 100%;
+             
+        }
+
+               .servicios {
+            .title {
+            
+                .txt{
+              
+                    a{
+                       text-align: center;
+                width: 100%;
+                        
+                        }
+                    }
+                }
+            }
+  
+
+
+}
+
+    @media screen and(max-width:800px) {
+
+ .txt-slider{
+     h1{
+         font-size: 30px;
+         }
+
+             p{
+                    font-size: 18px !important;
+                 }
+     
+ }
+
+        }
+
+
+
+              @media screen and(max-width:600px) {
+
+ .txt-slider{
+     h1{
+         font-size: 24px !important;
+         }
+
+             p{
+                    font-size: 15px !important;
+                 }
+     
+ }
+
+        }

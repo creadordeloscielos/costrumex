@@ -25,6 +25,7 @@
   z-index: 3;
   top: 46%;
   width: 100%;
+
 }
 .slides-navigation a {
   position: absolute;
@@ -64,3 +65,5 @@
 .slides-pagination a.current {
   background: #222;
 }
+
+
