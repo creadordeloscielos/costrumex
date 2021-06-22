@@ -4,369 +4,482 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="./media/logo2.PNG">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Poppins:wght@200;400;500&display=swap"
+    <link rel="shortcut icon" href="./media/iconos/logo-construmex.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carusel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Ubuntu&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="css/slider.css">
-    <title>Mi Casa Proyectos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construmex</title>
 </head>
 
 <body>
 
     <header>
-        <div class="container">
-            <div class="menu wrapper dp-flex">
-                <div class="mobile dp-flex">
-                    <img src="media/logo2.png" alt="">
-                    <p></p>
-                    <i class="icon-menu" id="btn"></i>
+
+        <div class="logo-banner">
+            <div class="wrapper dp-flex">
+                <img src="media/iconos/logo-construmex.png" alt="logo-construmex">
+                <div class="info dp-flex">
+                    <div class="box dp-flex">
+                        <i class="icon-mail"></i>
+                        <p>Correo Electronico:<br>
+                            <span><a href="mailto:info@construmex.com">info@construmex.com</a>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="box dp-flex">
+                        <i class="icon-phone"></i>
+                        <p>Telefono:<br>
+                            <span>
+                                <a href="tel:+527535371349">+52 (753) 537 1349</a>
+                            </span>
+                        </p>
+                    </div>
                 </div>
-                <nav id="menu">
+                <i class="icon-menu" id="btn"></i>
+            </div>
+
+        </div>
+
+        <div class="menu">
+            <div class="container wrapper">
+                <nav class="dp-flex" id="menu">
                     <ul class="dp-flex">
                         <li><a href="index.html">Inicio</a></li>
-                        <li><a href="servicios.html">Servicios</a></li>
                         <li><a href="nosotros.html">Nosotros</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
+                    <div class="redes">
+                        <a href="https://es-es.facebook.com/ingenieria.construmex.9/"><i class="icon-facebook"></i></a>
+                        <a href="#"><i class="icon-twitter"></i></a>
+                    </div>
                 </nav>
             </div>
-
         </div>
+
     </header>
 
-    <div class="slider">
-        <div id="slides-shop" class="cover-slides">
-            <ul class="slides-container">
+    <div id="slides-shop" class="cover-slides vh">
+        <ul class="slides-container">
 
-                <li>
-                    <img src="media//como.jpg" alt="como lo hacemos" />
-                    <div class="container">
-                        <div class="txt-slider">
-                            <div class="titular-slider">
-                                <h1>¿Como desarrollamos tu proyecto?</h1>
-                                <p> Consiste en una serie de etapas que nos permiten garantizar la confiabilidad
-                                    y eficiencia de todos nuestros proyectos.
-                                    Podemos apoyarte en el proceso completo o en cualquier de las etapas que necesites.
-                                </p>
-                            </div>
+            <li class="text-center">
+                <img src="media/imagenes/slider01.jpg" alt="" />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">
+                                <strong>
+                                    Construccion civil e industrial
+                                </strong>
+                            </h1>
+                            <p class="m-b-40"><br />
+
+                            </p>
+
                         </div>
                     </div>
-                </li>
+                </div>
+            </li>
 
-                <li>
-                    <img src="media/diseño2.jpg" alt="Diseño" />
-                    <div class="container">
-                        <div class="txt-slider">
-                            <div class="titular-slider">
-                                <h1>Diseño</h1>
-                                <p>Trabajamos de la mano de nuestro clientes,siguiendo procesos claros y transparentes
-                                </p>
-                            </div>
+            <li class="text-left">
+                <img src="media/imagenes/comercial.jpg" alt="comercial" />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">
+                                <strong>
+                                    Comercial
+                                    <br />
+                                </strong>
+                            </h1>
+                            <p>
+                                Nos encargamos de crear espacios de convivencia familiar alrededor de la República
+                                Mexicana.
+                            </p>
                         </div>
                     </div>
-                </li>
+                </div>
+            </li>
 
-                <li>
-                    <img src="media/desarrollo.jpg" alt="Desarrollo" />
-                    <div class="container">
-                        <div class="txt-slider">
-                            <div class="titular-slider">
-                                <h1>Desarrollo</h1>
-                                <p>Teniendo como base un diseño arquitectonico definido,desarrollamos los planos
-                                    y memorias de calculo de todas las ingenierias involucradas en cada proyecto.
-                                </p>
-                            </div>
+            <li class="text-right">
+                <img src="media/imagenes/escuela.jpeg" alt="escuela" />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">
+                                <strong>
+                                    Edificacion
+                                    <br />
+                                </strong>
+                            </h1>
+                            <p class="m-b-40">
+                                Construimos proyectos que impulsarán crecimiento profesional
+                                y el bienestar de la ciudadanía.
+
+                            </p>
+                            <!-- BOTON 
+                            <p>
+                                <a class="btn hvr-hover" href="#">
+                                   Ver servicios
+                                </a>
+                            </p>
+                            -->
                         </div>
                     </div>
-                </li>
+                </div>
+            </li>
 
-                <li>
-                    <img src="media/construccion.jpg" alt="construccion" />
-                    <div class="container">
-                        <div class="txt-slider">
-                            <div class="titular-slider">
-                                <h1>Construccion</h1>
-                                <p>Nuestra pasion es transformar las ideas de nuestros clientes en proyectos reales.
-                                    Nuestro metodo de trabajo se basa en una total transparencia y confiabilidad.
-                                </p>
-                            </div>
+            <li class="text-left">
+                <img src="media/imagenes/slider02.jpg" alt="" />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">
+                                <strong>
+                                    Terracerias
+                                    <br />
+                                </strong>
+                            </h1>
+                            <p>
+                                Contamos con el equipo óptimo y especializado para la preparación del terreno adecuado
+                                para el proyecto.
+                            </p>
                         </div>
                     </div>
-                </li>
+                </div>
+            </li>
 
-
-                <li>
-                    <img src="media/supervision.jpg" alt="Supervicion" />
-                    <div class="container">
-                        <div class="txt-slider">
-                            <div class="titular-slider">
-                                <h1>Supervisión de Obras</h1>
-                                <p> La sastifacion de nuestros clientes es nuestro compromiso, los acompañamos paso a
-                                    paso
-                                    con informacion detallada y asegurandonos de alcanzar los odjetivos planeados.
-                                </p>
-                            </div>
+            <li class="text-left">
+                <img src="media/imagenes/alumbrado.jpg" alt="alumbrado" />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">
+                                <strong>
+                                    Infraestructura
+                                    <br />
+                                </strong>
+                            </h1>
+                            <p>
+                                Hemos contribuido a las construcciones emblemáticas de la ciudad.
+                            </p>
                         </div>
                     </div>
-                </li>
+                </div>
+            </li>
+        </ul>
 
-            </ul>
-            <div class="slides-navigation">
-                <a href="#" class="next">
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                </a>
-                <a href="#" class="prev">
-                    <i class="fa fa-angle-left" aria-hidden="true"></i>
-                </a>
-            </div>
+        <div class="slides-navigation">
+            <a href="#" class="next">
+                <i class="icon-right" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="prev">
+                <i class="icon-left" aria-hidden="true"></i>
+            </a>
         </div>
     </div>
 
-    <div class="experiencia">
-        <div class="title wrapper">
-            <div class="txt">
-                <h3>Nuestra Experiencia</h3>
-            </div>
-            <div class="txt">
-                <p>Cubrimos las disciplinas de supervisón en arquitectura y estructuras.
+    <div class="nosotros-inicio">
 
-                    Nuestra experiencia en el sector comprende desde pequeñas obras residenciales, pasando por numerosas
-                    obras de mediana escala, hasta grandes proyectos como centros comerciales.</p>
-            </div>
-        </div>
         <div class="container wrapper dp-flex">
 
             <div class="txt">
-                <i class="fas fa-building"></i>
-                <h4>Oficinas</h4>
-                <p>
-                    Solida experiencia en proyectos de oficinas, donde los servicios de ingeniería y acabados son de
-                    alta exigencia.
-                </p>
+                <h2>Nuestra Historia</h2>
+                <p>Somos una organización dedicada a prestar el servicio de construcción y mantenimiento industrial
+                    buscando la satisfacción de nuestros clientes atendiendo sus necesidades y superando sus
+                    expectativas.</p>
+
+                <a href="nosotros.html">Leer Mas</a>
             </div>
 
-            <div class="txt">
-                <i class="fas fa-home"></i>
-                <h4>Vivienda</h4>
-                <p>La construcción de vivienda unifamiliar es uno de nuestros referentes más exitoso en el ejercicio de
-                    la obra civil.</p>
-
-            </div>
-
-            <div class="txt">
-                <i class="fas fa-store"></i>
-                <h4>Comercio</h4>
-                <p>Un continuo ejercicio en obras para Servicios nos permite ofertar costos competitivos y brindarle así
-                    rentabilidad a tus proyectos.</p>
-            </div>
-
-            <div class="txt">
-                <i class="fas fa-industry"></i>
-                <h4>Industra</h4>
-                <p>Alta eficiencia en la ejecución de las ingeniería nos permite ser competitivos en la construcción de
-                    espacios del sector industrial.</p>
-
-            </div>
-
-
+            <img src="./media/imagenes/nosotros.jpg" alt="nosotros">
 
         </div>
     </div>
 
-    <div class="servicios">
-        <div class="title wrapper dp-flex">
+    <div class="nosotros-inicio">
+        <div class="container wrapper dp-flex reverse">
+            <img src="./media/imagenes/que-construimos.jpg" alt="nosotros">
             <div class="txt">
-                <h2>Nuestros servicios</h2>
-                <p> Nuestros servicios comprenden un enfoque integral entre las ramas del Diseño y la Construcción. Este
-                    enfoque nos ha brindado un continuo conocimiento y crecimiento en todo el mercado inmobiliario</p>
-                <ul>
-                    <li><i class="fas fa-check-square"></i>Proyecto Ejecutivo</li>
-                    <li><i class="fas fa-check-square"></i>Direccion y Supervicion de Obras
-                    </li>
-                    <li><i class="fas fa-check-square"></i>Construccion</li>
-
-                </ul>
-                <a href="servicios.html">Ver Servicios</a>
-
+                <h2>Que construimos</h2>
+                <p>Naves industriales, centros comerciales, oficinas corporativas, aeropuertos, estacionamientos,
+                    universidades, hospitales, obras públicas, infraestructura, etc.</p>
             </div>
 
-            <div class="img">
-                <img src="media/desarrollo.jpg" alt="Servicios">
-            </div>
         </div>
-
     </div>
 
- <div class="nuestro-trabajo">
-
-    <div class="txt-centro wrapper">
-        <h2>Nuestro Trabajo</h2>
-    </div>
-
-    <div class="planos">
+    <div class="nosotros-inicio">
         <div class="container wrapper dp-flex">
 
-            <div class="img">
-                <img src="media/mapas.jpg" alt="Elaboracion de mapas">
-            </div>
-
             <div class="txt">
-                <h3>Elaboracion de planos</h3>
-
+                <h2>Nuestras ingenierias</h2>
                 <ul>
-                    <li><i class="fa fa-check-circle"></i>Planos Estructurales</li>
-                    <li><i class="fa fa-check-circle"></i>Planos Electricos</li>
-                    <li><i class="fa fa-check-circle"></i>Planos Topograficos</li>
-                    <li><i class="fa fa-check-circle"></i>Planos Hidrosanitarios</li>
-                    <li><i class="fa fa-check-circle"></i>Planos Residenciales</li>
-                    <li><i class="fa fa-check-circle"></i>Planos Arquitectonicos</li>
+                    <li>Ingeniería Civil</li>
+                    <li>Ingeniería Electromecanica</li>
+                    <li>Ingeniería Hidrosanitaria</li>
+                    <li>Ingeniería Industrial</li>
+                    <li>Ingeniería Civil</li>
                 </ul>
             </div>
-
+            <img src="./media/imagenes/inge.jpg" alt="inges">
         </div>
     </div>
 
-    <div class="planos">
-        <div class="container wrapper dp-flex">
+    <!-- NUESTROS CLIENTES -->
+    <div class="nuestros-clientes">
 
-
-            <div class="txt">
-                <h3>Diseños</h3>
-                <p>Estamos convencidos de que parte de nuestro éxito se basa en nuestra metodología de planificación, experimentación y uso extensivo de la tecnología en el diseño.</p>
-                <ul>
-                    <li><i class="fa fa-check-circle"></i>Anteproyecto</li>
-                    <li><i class="fa fa-check-circle"></i>Proyecto Ejecutivo</li>
-                      
-                            <li><i class="fa fa-check-circle"></i>Urbanismo</li>
-                            <li><i class="fa fa-check-circle"></i>Arquitectura</li>
-                            <li><i class="fa fa-check-circle"></i>Dieño de interiores</li>
-                            <li><i class="fa fa-check-circle"></i>Arquitectura de paisaje</li>
-                     
-                    
-
-                </ul>
-            </div>
-            <div class="img">
-                <img src="media/diseño-3.jpg" alt="Elaboracion de mapas">
+        <div class="container wrapper">
+            <h4>clientes que han confiado en nosotros</h4>
+            <div class="container dp-flex">
+                <div class="img"> <img src="media/logos de clientes/logo-sedena.png" alt="logo-sedena"> </div>
+                <div class="img"> <img src="media/logos de clientes/logo-casageo.png" alt="logo-casageo"> </div>
+                <div class="img"> <img src="media/logos de clientes/logo-stc.png" alt="logo-stc"> </div>
+                <div class="img"> <img src="media/logos de clientes/logo-kansas.png" alt="logo-kansas"> </div>
+                <div class="img"> <img src="media/logos de clientes/api.png" alt="api"></div>
+                <div class="img"> <img src="media/logos de clientes/BMW.png" alt="bmw"></div>
+                <div class="img"> <img src="media/logos de clientes/casaara.png" alt="casas"></div>
+                <div class="img"> <img src="media/logos de clientes/coppel-1.svg" alt="coppel"></div>
+                <div class="img"> <img src="media/logos de clientes/corona.png" alt="corona"></div>
+                <div class="img"> <img src="media/logos de clientes/logo-pemex.png" alt="pemex"></div>
+                <div class="img"> <img src="media/logos de clientes/logo-mittal.jpg" alt="mittal"></div>
+                <div class="img"><img src="media/logos de clientes/logo-cfe.png" alt="cfe"> </div>
             </div>
 
         </div>
     </div>
+    <!-- NUESTROS CLIENTES -->
 
-    <div class="planos-3">
-        <div class="container wrapper dp-flex">
-
-         
-            <div class="txt">
-                <h3>Arquitectura</h3>
-
-               
-                    <ul>
-                        <li><i class="fa fa-check-circle"></i>Permiso de construccion</li>
-                        <li><i class="fa fa-check-circle"></i>Regularizacion de edificacion</li>
-                        <li><i class="fa fa-check-circle"></i>Mantenimiento de propiedades</li>
-                        <li><i class="fa fa-check-circle"></i>Cambio de uso de suelo</li>
-                        <li><i class="fa fa-check-circle"></i>Medicion de terrenos</li>
-                        <li><i class="fa fa-check-circle"></i>Tramites Municipales</li>
-                        <li><i class="fa fa-check-circle"></i>Remodelaciones</li>
-                        <li><i class="fa fa-check-circle"></i>Construcciones</li>
-                        <li><i class="fa fa-check-circle"></i>Presupuesto de obra</li>
-                        <li><i class="fa fa-check-circle"></i>Tramites Municipales</li>
-                        <li><i class="fa fa-check-circle"></i>Planimetria</li>
-                        <li><i class="fa fa-check-circle"></i>Levantamiento Topografico</li>
-                        <li><i class="fa fa-check-circle"></i>Planos y Proyectos</li>
-                        <li><i class="fa fa-check-circle"></i>Diseños en 3D (Renders)</li>
-                        <li><i class="fa fa-check-circle"></i>Digitalizaciones</li>
-                        <li><i class="fa fa-check-circle"></i>Diseño de interiores y exteriores</li>
-                        <li><i class="fa fa-check-circle"></i>Interpretacion de planos</li>
-                        <li><i class="fa fa-check-circle"></i>Topografia</li>
-                        <li><i class="fa fa-check-circle"></i>Urbanismo</li>
-                        <li><i class="fa fa-check-circle"></i>Supervicion de obras</li>
-                        <li><i class="fa fa-check-circle"></i>subdivision de predios</li>
-                        <li><i class="fa fa-check-circle"></i>Propiedad Horizontal</li>
-                        <li><i class="fa fa-check-circle"></i>Planos As Built</li>
-                        <li><i class="fa fa-check-circle"></i>Obras de Construccion</li>
-                        <li><i class="fa fa-check-circle"></i>Inspeccion de Asesoria en Obra</li>
-                        <li><i class="fa fa-check-circle"></i>Lotificaciones</li>
-                        <li><i class="fa fa-check-circle"></i>Planos de  Fraccionamiento</li>
-                    </ul>
-                
+    <!-- <div class="proyectos">
+        <div class="container dp-flex wrapper">
+            <div class="proyecto">
+                <h3>Diseño</h3>
             </div>
-
-        </div>
-    </div>
- </div>
-
-    <div class="servicios">
-        <div class="title wrapper dp-flex">
-            <div class="txt">
-                <h2>Nuestras diciplinas</h2>
-                <p> Contamos con cuadrillas propias que ejecutan la obra de basamentos, superestructuras, albañilerías,
-                    acabados, carpinterías, cancelerías, herrerías, instalaciones hidrosanitarias, instalaciones
-                    eléctricas, instalaciones HVAC y exteriores.</p>
-                <p>
-                    Por otro lado, alianzas con proveedores especializados
-                    en las tareas de terracerías e instalaciones especiales.
-                </p>
-
-
-
+            <div class="proyecto">
+                <h3>Construccion</h3>
             </div>
-
-            <div class="img">
-                <img src="media/construccion.jpg" alt="Servicios">
+            <div class="proyecto">
+                <h3>Proyecto en llave de mano</h3>
             </div>
         </div>
+    </div> -->
 
-    </div>
+    <div class="proyectos-2">
 
+        <h3>
+            Nuestros Servicios
+        </h3>
 
-    <div class="precencia">
-        <div class="container wrapper ">
-            <div class="txt">
-                <h4>Contamos con presencia en todo el pais</h4>
-            </div>
+        <div class="container dp-flex wrapper">
 
-            <div class="img">
-                <img src="media/mapa.png" alt="precencia">
-            </div>
-
-        </div>
-    </div>
-
-
-    
-    <div class="trabajo">
-        <div class="title wrapper">
-            <div class="title wrapper dp-flex">
+            <div class="card">
+                <img src="media/imagenes/alumbrado.jpg" alt="alumbrado">
                 <div class="txt">
-                    <h2>¿ Busca Empleo ?</h2>
-                    <p>Envianos tu CV al siguiente correo info@micasaproyectos.com o bien contactos directamente
-
-                    </p>
-                    <ul>
-                        <li><i class="fas fa-check-square"></i>Ing.Civil</li>
-                        <li><i class="fas fa-check-square"></i>Arquitecto
-                        </li>
-                        <li><i class="fas fa-check-square"></i>Marketing Digital</li>
-    
-                    </ul>
-                    <a href="contacto.html">Contactanos</a>
-    
-                </div>
-    
-                <div class="img">
-                    <img src="media/empleo.jpg" alt="Servicios">
+                    <div class="content">
+                        <p>Alumbrado publico</p>
+                    </div>
                 </div>
             </div>
-    
+
+            <div class="card">
+                <img src="media/imagenes/obra-civil.jpg" alt="obra-civil">
+                <div class="txt">
+                    <div class="content">
+                        <p>Obra civil</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="media/imagenes/obra-electrica.jpg" alt="obra electrica">
+                <div class="txt">
+                    <div class="content">
+                        <p>Obra electrica</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="media/imagenes/mantenimiento.jpg" alt="industril">
+                <div class="txt">
+                    <div class="content">
+                        <p>Mantenimiento insdustrial</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="media/imagenes/montaje.jpg" alt="montaje">
+                <div class="txt">
+                    <div class="content">
+                        <p>Diseño y montaje</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="media/imagenes/planta-proeceso.jpg" alt="proceso">
+                <div class="txt">
+                    <div class="content">
+                        <p>Mantenimiento a <br>plantas de procesos</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
+
+
+    <!-- CAPACIADES DE CONSTRUMEX -->
+    <div class="capacidades">
+        <div class="txt wrapper">
+            <h2>Nuestras Capacidades</h2>
+        </div>
+
+        <div class="container wrapper dp-flex">
+
+            <div class="capacidad">
+                <h3>
+                    SEGMENTOS DE MERCADO
+                </h3>
+
+                <p>
+                    Naves industriales, centros comerciales, oficinas corporativas, aeropuertos, estacionamientos,
+                    universidades, hospitales, obra pública e infraestructura, etc.
+                </p>
+            </div>
+
+            <div class="capacidad">
+                <h3>
+                    SISTEMA DE PLANEACIÓN
+                </h3>
+
+                <p>
+                    Utilizamos PROCORE para la gestión de nuestros proyectos y trabajamos con los estándares de la norma
+                    ISO 9001:2015 que nos permite la medición de riesgos para prevenir y tomar oportunidades para
+                    mejora.
+                </p>
+            </div>
+
+            <div class="capacidad">
+                <h3>
+                    SUSTENTABILIDAD
+                </h3>
+
+                <p>
+                    Somos una empresa con insignia ESR y estamos comprometidos con los principales temas de
+                    responsabilidad social corporativa. Implementamos mejoras continuamente mejorando y enfocándonos
+                    productiva y estructuralmente.
+                </p>
+            </div>
+
+            <div class="capacidad">
+                <h3>
+                    SEGURIDAD
+                </h3>
+
+                <p>
+                    Gestionamos la seguridad con planeación, identificación de mejoras, coordinación, control y
+                    dirección de las actividades de la seguridad en la construcción.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- CAPACIADES DE CONSTRUMEX -->
+
+
+
+    <!-- NUESTROS PROYECTOS -->
+    <div class="nuestros-proyectos">
+        <h4>Nuestros Proyectos</h4>
+        <div class="container2">
+
+            <div class="proyecto">
+                <img src="media/imagenes/hotel.jpg" alt="hotel">
+                <div class="txt">
+                    <h4>Hotel</h4>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="media/imagenes/acua.jpg" alt="acuaductos">
+                <div class="txt">
+                    <h4>Acuaductos</h4>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="media/imagenes/hospital2.jpg" alt="hospital">
+                <div class="txt">
+                    <h4>Hospital</h4>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="media/imagenes/bancos.jpeg" alt="banco">
+                <div class="txt">
+                    <h4>Banco</h4>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="media/imagenes/escuela.jpeg" alt="escuelas">
+                <div class="txt">
+                    <h4>Escuelas</h4>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="media/imagenes/tiendas.jpg" alt="tiendas">
+                <div class="txt">
+                    <h4>Tiendas</h4>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="media/imagenes/obra-publica.jpg" alt="obra publica">
+                <div class="txt">
+                    <h4>Obra publica</h4>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="media/imagenes/resta.jpg" alt="restaurant">
+                <div class="txt">
+                    <h4>Restaurantes</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- NUESTROS PROYECTOS -->
+
+
+    <!-- MENSAJE BANNER 
+    <div class="banner-msj">
+        <div class="container wrapper dp-flex">
+            <h4>construimos el proyecto de su sueño</h4>
+            <a href="#">Contactanos</a>
+        </div>
+    </div>
+   -->
+
 
     <footer>
 
@@ -376,12 +489,11 @@
                 <ul>
                     <li>Ultimas publicaciones</li>
                 </ul>
-                <div class="fb-page" data-href="https://www.facebook.com/micasaproyectos/" data-tabs="timeline"
-                    data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
+                <div class="fb-page" data-href="https://www.facebook.com/construmexlzc" data-tabs="timeline"
+                    data-width="" data-height="" data-small-header="false" data-adapt-container-width="false"
                     data-hide-cover="false" data-show-facepile="true">
-                    <blockquote cite="https://www.facebook.com/micasaproyectos/" class="fb-xfbml-parse-ignore"><a
-                            href="https://www.facebook.com/micasaproyectos/">Mi Casa, Mantenimiento y Remodelacion
-                            Lzc</a></blockquote>
+                    <blockquote cite="https://www.facebook.com/construmexlzc" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/construmexlzc">Ingeniería Construmex</a></blockquote>
                 </div>
             </div>
 
@@ -392,7 +504,6 @@
                     <li> <a href="https://www.construriomar.com/" target="_blank">www.construriomar.com</a>
                     <li>
                     <li> <a href="https://icamar.com/" target="_blank">www.icamar.com</a></li>
-                    <li>  <a href="https://www.ingenieriaconstrumex.com/" target="_blank">www.ingenieriaconstrumex.com</a></li>
                     <li> <a href="https://www.hlconstrucciones.com/" target="_blank">www.hlconstrucciones.com</a>
                     </li>
                 </ul>
@@ -402,36 +513,46 @@
                 <ul>
                     <li>Telefonos</li>
                     <li> <i class="icon-phone"></i> +52 (753) 537 1349 </li>
-
-                    <li> <i class="icon-phone"></i> +52 (753) 181 1195 </li>
                     <li> <i class="icon-phone"></i> +52 (753) 168 3407 </li>
+                    <li> <i class="icon-phone"></i> +52 (753) 181 1195 </li>
                 </ul>
             </div>
 
             <div class="box">
                 <ul>
                     <li>Informacion de contacto</li>
-                    <li> <i class="icon-location"></i>Nicolás Bravo 341, Centro <br class="br">  Cd. Lázaro Cárdenas,
+                    <li> <i class="icon-location"></i>Nicolás Bravo 341, Centro <br> Cd. Lázaro Cárdenas,
                         <br> Michoacán,México 60950
                     </li>
-                    <li> <i class="icon-mail"></i>info@micasaproyectos.com</li>
+                    <li> <i class="icon-mail"></i>info@construmex.com</li>
                 </ul>
             </div>
 
 
         </div>
         <div class="pie">
-            <p>Copyright © 2021 MicasaProyectos</p>
+            <p>Copyright © 2021 Ingeneria Construmex S.A. Proyectos de Ingeniería</p>
         </div>
 
     </footer>
-
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0"
         nonce="jbJtxinJ"></script>
 
+    <!-- <script src="js/carusel.js"></script> -->
+
     <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.superslides.min.js"></script>
+    <script src="/js/bootstrap-select.js"></script>
+    <!-- <script src="/js/inewsticker.js"></script> -->
+    <!-- <script src="/js/bootsnav.js."></script> -->
+    <!-- <script src="/js/images-loded.min.js"></script> -->
+    <script src="/js/isotope.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/baguetteBox.min.js"></script>
+    <script src="/js/form-validator.min.js"></script>
+    <script src="/js/contact-form-script.js"></script>
     <script src="/js/custom.js"></script>
     <script src="/js/menu.js"></script>
 </body>
